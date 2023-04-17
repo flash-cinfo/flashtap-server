@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: shooter_server
+# Project: server
 # Configurations: 
 # =============================================================================
 
@@ -36,251 +36,251 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /home/senhor/projects/flashProject/server/release/
 # =============================================================================
-# Object build statements for EXECUTABLE target shooter_server
+# Object build statements for EXECUTABLE target server
 
 
 #############################################
-# Order-only phony target for shooter_server
+# Order-only phony target for server
 
-build cmake_object_order_depends_target_shooter_server: phony || CMakeFiles/shooter_server.dir
+build cmake_object_order_depends_target_server: phony || CMakeFiles/server.dir
 
-build CMakeFiles/shooter_server.dir/Source.cpp.o: CXX_COMPILER__shooter_server_unscanned_ /home/senhor/projects/flashProject/server/Source.cpp || cmake_object_order_depends_target_shooter_server
-  DEP_FILE = CMakeFiles/shooter_server.dir/Source.cpp.o.d
+build CMakeFiles/server.dir/Source.cpp.o: CXX_COMPILER__server_unscanned_ /home/senhor/projects/flashProject/server/Source.cpp || cmake_object_order_depends_target_server
+  DEP_FILE = CMakeFiles/server.dir/Source.cpp.o.d
   FLAGS = -std=gnu++17
-  OBJECT_DIR = CMakeFiles/shooter_server.dir
-  OBJECT_FILE_DIR = CMakeFiles/shooter_server.dir
+  OBJECT_DIR = CMakeFiles/server.dir
+  OBJECT_FILE_DIR = CMakeFiles/server.dir
 
-build CMakeFiles/shooter_server.dir/Player.cpp.o: CXX_COMPILER__shooter_server_unscanned_ /home/senhor/projects/flashProject/server/Player.cpp || cmake_object_order_depends_target_shooter_server
-  DEP_FILE = CMakeFiles/shooter_server.dir/Player.cpp.o.d
+build CMakeFiles/server.dir/Player.cpp.o: CXX_COMPILER__server_unscanned_ /home/senhor/projects/flashProject/server/Player.cpp || cmake_object_order_depends_target_server
+  DEP_FILE = CMakeFiles/server.dir/Player.cpp.o.d
   FLAGS = -std=gnu++17
-  OBJECT_DIR = CMakeFiles/shooter_server.dir
-  OBJECT_FILE_DIR = CMakeFiles/shooter_server.dir
+  OBJECT_DIR = CMakeFiles/server.dir
+  OBJECT_FILE_DIR = CMakeFiles/server.dir
 
-build CMakeFiles/shooter_server.dir/network/ShooterServer.cpp.o: CXX_COMPILER__shooter_server_unscanned_ /home/senhor/projects/flashProject/server/network/ShooterServer.cpp || cmake_object_order_depends_target_shooter_server
-  DEP_FILE = CMakeFiles/shooter_server.dir/network/ShooterServer.cpp.o.d
+build CMakeFiles/server.dir/network/ShooterServer.cpp.o: CXX_COMPILER__server_unscanned_ /home/senhor/projects/flashProject/server/network/ShooterServer.cpp || cmake_object_order_depends_target_server
+  DEP_FILE = CMakeFiles/server.dir/network/ShooterServer.cpp.o.d
   FLAGS = -std=gnu++17
-  OBJECT_DIR = CMakeFiles/shooter_server.dir
-  OBJECT_FILE_DIR = CMakeFiles/shooter_server.dir/network
+  OBJECT_DIR = CMakeFiles/server.dir
+  OBJECT_FILE_DIR = CMakeFiles/server.dir/network
 
-build CMakeFiles/shooter_server.dir/network/ShooterMsgType.cpp.o: CXX_COMPILER__shooter_server_unscanned_ /home/senhor/projects/flashProject/server/network/ShooterMsgType.cpp || cmake_object_order_depends_target_shooter_server
-  DEP_FILE = CMakeFiles/shooter_server.dir/network/ShooterMsgType.cpp.o.d
+build CMakeFiles/server.dir/network/ShooterMsgType.cpp.o: CXX_COMPILER__server_unscanned_ /home/senhor/projects/flashProject/server/network/ShooterMsgType.cpp || cmake_object_order_depends_target_server
+  DEP_FILE = CMakeFiles/server.dir/network/ShooterMsgType.cpp.o.d
   FLAGS = -std=gnu++17
-  OBJECT_DIR = CMakeFiles/shooter_server.dir
-  OBJECT_FILE_DIR = CMakeFiles/shooter_server.dir/network
+  OBJECT_DIR = CMakeFiles/server.dir
+  OBJECT_FILE_DIR = CMakeFiles/server.dir/network
 
-build CMakeFiles/shooter_server.dir/flashEngine/math/Vec4D.cpp.o: CXX_COMPILER__shooter_server_unscanned_ /home/senhor/projects/flashProject/server/flashEngine/math/Vec4D.cpp || cmake_object_order_depends_target_shooter_server
-  DEP_FILE = CMakeFiles/shooter_server.dir/flashEngine/math/Vec4D.cpp.o.d
+build CMakeFiles/server.dir/flashEngine/math/Vec4D.cpp.o: CXX_COMPILER__server_unscanned_ /home/senhor/projects/flashProject/server/flashEngine/math/Vec4D.cpp || cmake_object_order_depends_target_server
+  DEP_FILE = CMakeFiles/server.dir/flashEngine/math/Vec4D.cpp.o.d
   FLAGS = -std=gnu++17
-  OBJECT_DIR = CMakeFiles/shooter_server.dir
-  OBJECT_FILE_DIR = CMakeFiles/shooter_server.dir/flashEngine/math
+  OBJECT_DIR = CMakeFiles/server.dir
+  OBJECT_FILE_DIR = CMakeFiles/server.dir/flashEngine/math
 
-build CMakeFiles/shooter_server.dir/flashEngine/math/Vec3D.cpp.o: CXX_COMPILER__shooter_server_unscanned_ /home/senhor/projects/flashProject/server/flashEngine/math/Vec3D.cpp || cmake_object_order_depends_target_shooter_server
-  DEP_FILE = CMakeFiles/shooter_server.dir/flashEngine/math/Vec3D.cpp.o.d
+build CMakeFiles/server.dir/flashEngine/math/Vec3D.cpp.o: CXX_COMPILER__server_unscanned_ /home/senhor/projects/flashProject/server/flashEngine/math/Vec3D.cpp || cmake_object_order_depends_target_server
+  DEP_FILE = CMakeFiles/server.dir/flashEngine/math/Vec3D.cpp.o.d
   FLAGS = -std=gnu++17
-  OBJECT_DIR = CMakeFiles/shooter_server.dir
-  OBJECT_FILE_DIR = CMakeFiles/shooter_server.dir/flashEngine/math
+  OBJECT_DIR = CMakeFiles/server.dir
+  OBJECT_FILE_DIR = CMakeFiles/server.dir/flashEngine/math
 
-build CMakeFiles/shooter_server.dir/flashEngine/math/Vec2D.cpp.o: CXX_COMPILER__shooter_server_unscanned_ /home/senhor/projects/flashProject/server/flashEngine/math/Vec2D.cpp || cmake_object_order_depends_target_shooter_server
-  DEP_FILE = CMakeFiles/shooter_server.dir/flashEngine/math/Vec2D.cpp.o.d
+build CMakeFiles/server.dir/flashEngine/math/Vec2D.cpp.o: CXX_COMPILER__server_unscanned_ /home/senhor/projects/flashProject/server/flashEngine/math/Vec2D.cpp || cmake_object_order_depends_target_server
+  DEP_FILE = CMakeFiles/server.dir/flashEngine/math/Vec2D.cpp.o.d
   FLAGS = -std=gnu++17
-  OBJECT_DIR = CMakeFiles/shooter_server.dir
-  OBJECT_FILE_DIR = CMakeFiles/shooter_server.dir/flashEngine/math
+  OBJECT_DIR = CMakeFiles/server.dir
+  OBJECT_FILE_DIR = CMakeFiles/server.dir/flashEngine/math
 
-build CMakeFiles/shooter_server.dir/flashEngine/math/Matrix4x4.cpp.o: CXX_COMPILER__shooter_server_unscanned_ /home/senhor/projects/flashProject/server/flashEngine/math/Matrix4x4.cpp || cmake_object_order_depends_target_shooter_server
-  DEP_FILE = CMakeFiles/shooter_server.dir/flashEngine/math/Matrix4x4.cpp.o.d
+build CMakeFiles/server.dir/flashEngine/math/Matrix4x4.cpp.o: CXX_COMPILER__server_unscanned_ /home/senhor/projects/flashProject/server/flashEngine/math/Matrix4x4.cpp || cmake_object_order_depends_target_server
+  DEP_FILE = CMakeFiles/server.dir/flashEngine/math/Matrix4x4.cpp.o.d
   FLAGS = -std=gnu++17
-  OBJECT_DIR = CMakeFiles/shooter_server.dir
-  OBJECT_FILE_DIR = CMakeFiles/shooter_server.dir/flashEngine/math
+  OBJECT_DIR = CMakeFiles/server.dir
+  OBJECT_FILE_DIR = CMakeFiles/server.dir/flashEngine/math
 
-build CMakeFiles/shooter_server.dir/flashEngine/Triangle.cpp.o: CXX_COMPILER__shooter_server_unscanned_ /home/senhor/projects/flashProject/server/flashEngine/Triangle.cpp || cmake_object_order_depends_target_shooter_server
-  DEP_FILE = CMakeFiles/shooter_server.dir/flashEngine/Triangle.cpp.o.d
+build CMakeFiles/server.dir/flashEngine/Triangle.cpp.o: CXX_COMPILER__server_unscanned_ /home/senhor/projects/flashProject/server/flashEngine/Triangle.cpp || cmake_object_order_depends_target_server
+  DEP_FILE = CMakeFiles/server.dir/flashEngine/Triangle.cpp.o.d
   FLAGS = -std=gnu++17
-  OBJECT_DIR = CMakeFiles/shooter_server.dir
-  OBJECT_FILE_DIR = CMakeFiles/shooter_server.dir/flashEngine
+  OBJECT_DIR = CMakeFiles/server.dir
+  OBJECT_FILE_DIR = CMakeFiles/server.dir/flashEngine
 
-build CMakeFiles/shooter_server.dir/flashEngine/math/Plane.cpp.o: CXX_COMPILER__shooter_server_unscanned_ /home/senhor/projects/flashProject/server/flashEngine/math/Plane.cpp || cmake_object_order_depends_target_shooter_server
-  DEP_FILE = CMakeFiles/shooter_server.dir/flashEngine/math/Plane.cpp.o.d
+build CMakeFiles/server.dir/flashEngine/math/Plane.cpp.o: CXX_COMPILER__server_unscanned_ /home/senhor/projects/flashProject/server/flashEngine/math/Plane.cpp || cmake_object_order_depends_target_server
+  DEP_FILE = CMakeFiles/server.dir/flashEngine/math/Plane.cpp.o.d
   FLAGS = -std=gnu++17
-  OBJECT_DIR = CMakeFiles/shooter_server.dir
-  OBJECT_FILE_DIR = CMakeFiles/shooter_server.dir/flashEngine/math
+  OBJECT_DIR = CMakeFiles/server.dir
+  OBJECT_FILE_DIR = CMakeFiles/server.dir/flashEngine/math
 
-build CMakeFiles/shooter_server.dir/flashEngine/Mesh.cpp.o: CXX_COMPILER__shooter_server_unscanned_ /home/senhor/projects/flashProject/server/flashEngine/Mesh.cpp || cmake_object_order_depends_target_shooter_server
-  DEP_FILE = CMakeFiles/shooter_server.dir/flashEngine/Mesh.cpp.o.d
+build CMakeFiles/server.dir/flashEngine/Mesh.cpp.o: CXX_COMPILER__server_unscanned_ /home/senhor/projects/flashProject/server/flashEngine/Mesh.cpp || cmake_object_order_depends_target_server
+  DEP_FILE = CMakeFiles/server.dir/flashEngine/Mesh.cpp.o.d
   FLAGS = -std=gnu++17
-  OBJECT_DIR = CMakeFiles/shooter_server.dir
-  OBJECT_FILE_DIR = CMakeFiles/shooter_server.dir/flashEngine
+  OBJECT_DIR = CMakeFiles/server.dir
+  OBJECT_FILE_DIR = CMakeFiles/server.dir/flashEngine
 
-build CMakeFiles/shooter_server.dir/flashEngine/utils/Log.cpp.o: CXX_COMPILER__shooter_server_unscanned_ /home/senhor/projects/flashProject/server/flashEngine/utils/Log.cpp || cmake_object_order_depends_target_shooter_server
-  DEP_FILE = CMakeFiles/shooter_server.dir/flashEngine/utils/Log.cpp.o.d
+build CMakeFiles/server.dir/flashEngine/utils/Log.cpp.o: CXX_COMPILER__server_unscanned_ /home/senhor/projects/flashProject/server/flashEngine/utils/Log.cpp || cmake_object_order_depends_target_server
+  DEP_FILE = CMakeFiles/server.dir/flashEngine/utils/Log.cpp.o.d
   FLAGS = -std=gnu++17
-  OBJECT_DIR = CMakeFiles/shooter_server.dir
-  OBJECT_FILE_DIR = CMakeFiles/shooter_server.dir/flashEngine/utils
+  OBJECT_DIR = CMakeFiles/server.dir
+  OBJECT_FILE_DIR = CMakeFiles/server.dir/flashEngine/utils
 
-build CMakeFiles/shooter_server.dir/flashEngine/utils/Time.cpp.o: CXX_COMPILER__shooter_server_unscanned_ /home/senhor/projects/flashProject/server/flashEngine/utils/Time.cpp || cmake_object_order_depends_target_shooter_server
-  DEP_FILE = CMakeFiles/shooter_server.dir/flashEngine/utils/Time.cpp.o.d
+build CMakeFiles/server.dir/flashEngine/utils/Time.cpp.o: CXX_COMPILER__server_unscanned_ /home/senhor/projects/flashProject/server/flashEngine/utils/Time.cpp || cmake_object_order_depends_target_server
+  DEP_FILE = CMakeFiles/server.dir/flashEngine/utils/Time.cpp.o.d
   FLAGS = -std=gnu++17
-  OBJECT_DIR = CMakeFiles/shooter_server.dir
-  OBJECT_FILE_DIR = CMakeFiles/shooter_server.dir/flashEngine/utils
+  OBJECT_DIR = CMakeFiles/server.dir
+  OBJECT_FILE_DIR = CMakeFiles/server.dir/flashEngine/utils
 
-build CMakeFiles/shooter_server.dir/flashEngine/utils/Timer.cpp.o: CXX_COMPILER__shooter_server_unscanned_ /home/senhor/projects/flashProject/server/flashEngine/utils/Timer.cpp || cmake_object_order_depends_target_shooter_server
-  DEP_FILE = CMakeFiles/shooter_server.dir/flashEngine/utils/Timer.cpp.o.d
+build CMakeFiles/server.dir/flashEngine/utils/Timer.cpp.o: CXX_COMPILER__server_unscanned_ /home/senhor/projects/flashProject/server/flashEngine/utils/Timer.cpp || cmake_object_order_depends_target_server
+  DEP_FILE = CMakeFiles/server.dir/flashEngine/utils/Timer.cpp.o.d
   FLAGS = -std=gnu++17
-  OBJECT_DIR = CMakeFiles/shooter_server.dir
-  OBJECT_FILE_DIR = CMakeFiles/shooter_server.dir/flashEngine/utils
+  OBJECT_DIR = CMakeFiles/server.dir
+  OBJECT_FILE_DIR = CMakeFiles/server.dir/flashEngine/utils
 
-build CMakeFiles/shooter_server.dir/flashEngine/utils/ResourceManager.cpp.o: CXX_COMPILER__shooter_server_unscanned_ /home/senhor/projects/flashProject/server/flashEngine/utils/ResourceManager.cpp || cmake_object_order_depends_target_shooter_server
-  DEP_FILE = CMakeFiles/shooter_server.dir/flashEngine/utils/ResourceManager.cpp.o.d
+build CMakeFiles/server.dir/flashEngine/utils/ResourceManager.cpp.o: CXX_COMPILER__server_unscanned_ /home/senhor/projects/flashProject/server/flashEngine/utils/ResourceManager.cpp || cmake_object_order_depends_target_server
+  DEP_FILE = CMakeFiles/server.dir/flashEngine/utils/ResourceManager.cpp.o.d
   FLAGS = -std=gnu++17
-  OBJECT_DIR = CMakeFiles/shooter_server.dir
-  OBJECT_FILE_DIR = CMakeFiles/shooter_server.dir/flashEngine/utils
+  OBJECT_DIR = CMakeFiles/server.dir
+  OBJECT_FILE_DIR = CMakeFiles/server.dir/flashEngine/utils
 
-build CMakeFiles/shooter_server.dir/flashEngine/World.cpp.o: CXX_COMPILER__shooter_server_unscanned_ /home/senhor/projects/flashProject/server/flashEngine/World.cpp || cmake_object_order_depends_target_shooter_server
-  DEP_FILE = CMakeFiles/shooter_server.dir/flashEngine/World.cpp.o.d
+build CMakeFiles/server.dir/flashEngine/World.cpp.o: CXX_COMPILER__server_unscanned_ /home/senhor/projects/flashProject/server/flashEngine/World.cpp || cmake_object_order_depends_target_server
+  DEP_FILE = CMakeFiles/server.dir/flashEngine/World.cpp.o.d
   FLAGS = -std=gnu++17
-  OBJECT_DIR = CMakeFiles/shooter_server.dir
-  OBJECT_FILE_DIR = CMakeFiles/shooter_server.dir/flashEngine
+  OBJECT_DIR = CMakeFiles/server.dir
+  OBJECT_FILE_DIR = CMakeFiles/server.dir/flashEngine
 
-build CMakeFiles/shooter_server.dir/flashEngine/Camera.cpp.o: CXX_COMPILER__shooter_server_unscanned_ /home/senhor/projects/flashProject/server/flashEngine/Camera.cpp || cmake_object_order_depends_target_shooter_server
-  DEP_FILE = CMakeFiles/shooter_server.dir/flashEngine/Camera.cpp.o.d
+build CMakeFiles/server.dir/flashEngine/Camera.cpp.o: CXX_COMPILER__server_unscanned_ /home/senhor/projects/flashProject/server/flashEngine/Camera.cpp || cmake_object_order_depends_target_server
+  DEP_FILE = CMakeFiles/server.dir/flashEngine/Camera.cpp.o.d
   FLAGS = -std=gnu++17
-  OBJECT_DIR = CMakeFiles/shooter_server.dir
-  OBJECT_FILE_DIR = CMakeFiles/shooter_server.dir/flashEngine
+  OBJECT_DIR = CMakeFiles/server.dir
+  OBJECT_FILE_DIR = CMakeFiles/server.dir/flashEngine
 
-build CMakeFiles/shooter_server.dir/flashEngine/io/Screen.cpp.o: CXX_COMPILER__shooter_server_unscanned_ /home/senhor/projects/flashProject/server/flashEngine/io/Screen.cpp || cmake_object_order_depends_target_shooter_server
-  DEP_FILE = CMakeFiles/shooter_server.dir/flashEngine/io/Screen.cpp.o.d
+build CMakeFiles/server.dir/flashEngine/io/Screen.cpp.o: CXX_COMPILER__server_unscanned_ /home/senhor/projects/flashProject/server/flashEngine/io/Screen.cpp || cmake_object_order_depends_target_server
+  DEP_FILE = CMakeFiles/server.dir/flashEngine/io/Screen.cpp.o.d
   FLAGS = -std=gnu++17
-  OBJECT_DIR = CMakeFiles/shooter_server.dir
-  OBJECT_FILE_DIR = CMakeFiles/shooter_server.dir/flashEngine/io
+  OBJECT_DIR = CMakeFiles/server.dir
+  OBJECT_FILE_DIR = CMakeFiles/server.dir/flashEngine/io
 
-build CMakeFiles/shooter_server.dir/flashEngine/Engine.cpp.o: CXX_COMPILER__shooter_server_unscanned_ /home/senhor/projects/flashProject/server/flashEngine/Engine.cpp || cmake_object_order_depends_target_shooter_server
-  DEP_FILE = CMakeFiles/shooter_server.dir/flashEngine/Engine.cpp.o.d
+build CMakeFiles/server.dir/flashEngine/Engine.cpp.o: CXX_COMPILER__server_unscanned_ /home/senhor/projects/flashProject/server/flashEngine/Engine.cpp || cmake_object_order_depends_target_server
+  DEP_FILE = CMakeFiles/server.dir/flashEngine/Engine.cpp.o.d
   FLAGS = -std=gnu++17
-  OBJECT_DIR = CMakeFiles/shooter_server.dir
-  OBJECT_FILE_DIR = CMakeFiles/shooter_server.dir/flashEngine
+  OBJECT_DIR = CMakeFiles/server.dir
+  OBJECT_FILE_DIR = CMakeFiles/server.dir/flashEngine
 
-build CMakeFiles/shooter_server.dir/flashEngine/io/Keyboard.cpp.o: CXX_COMPILER__shooter_server_unscanned_ /home/senhor/projects/flashProject/server/flashEngine/io/Keyboard.cpp || cmake_object_order_depends_target_shooter_server
-  DEP_FILE = CMakeFiles/shooter_server.dir/flashEngine/io/Keyboard.cpp.o.d
+build CMakeFiles/server.dir/flashEngine/io/Keyboard.cpp.o: CXX_COMPILER__server_unscanned_ /home/senhor/projects/flashProject/server/flashEngine/io/Keyboard.cpp || cmake_object_order_depends_target_server
+  DEP_FILE = CMakeFiles/server.dir/flashEngine/io/Keyboard.cpp.o.d
   FLAGS = -std=gnu++17
-  OBJECT_DIR = CMakeFiles/shooter_server.dir
-  OBJECT_FILE_DIR = CMakeFiles/shooter_server.dir/flashEngine/io
+  OBJECT_DIR = CMakeFiles/server.dir
+  OBJECT_FILE_DIR = CMakeFiles/server.dir/flashEngine/io
 
-build CMakeFiles/shooter_server.dir/flashEngine/io/Mouse.cpp.o: CXX_COMPILER__shooter_server_unscanned_ /home/senhor/projects/flashProject/server/flashEngine/io/Mouse.cpp || cmake_object_order_depends_target_shooter_server
-  DEP_FILE = CMakeFiles/shooter_server.dir/flashEngine/io/Mouse.cpp.o.d
+build CMakeFiles/server.dir/flashEngine/io/Mouse.cpp.o: CXX_COMPILER__server_unscanned_ /home/senhor/projects/flashProject/server/flashEngine/io/Mouse.cpp || cmake_object_order_depends_target_server
+  DEP_FILE = CMakeFiles/server.dir/flashEngine/io/Mouse.cpp.o.d
   FLAGS = -std=gnu++17
-  OBJECT_DIR = CMakeFiles/shooter_server.dir
-  OBJECT_FILE_DIR = CMakeFiles/shooter_server.dir/flashEngine/io
+  OBJECT_DIR = CMakeFiles/server.dir
+  OBJECT_FILE_DIR = CMakeFiles/server.dir/flashEngine/io
 
-build CMakeFiles/shooter_server.dir/flashEngine/io/SoundController.cpp.o: CXX_COMPILER__shooter_server_unscanned_ /home/senhor/projects/flashProject/server/flashEngine/io/SoundController.cpp || cmake_object_order_depends_target_shooter_server
-  DEP_FILE = CMakeFiles/shooter_server.dir/flashEngine/io/SoundController.cpp.o.d
+build CMakeFiles/server.dir/flashEngine/io/SoundController.cpp.o: CXX_COMPILER__server_unscanned_ /home/senhor/projects/flashProject/server/flashEngine/io/SoundController.cpp || cmake_object_order_depends_target_server
+  DEP_FILE = CMakeFiles/server.dir/flashEngine/io/SoundController.cpp.o.d
   FLAGS = -std=gnu++17
-  OBJECT_DIR = CMakeFiles/shooter_server.dir
-  OBJECT_FILE_DIR = CMakeFiles/shooter_server.dir/flashEngine/io
+  OBJECT_DIR = CMakeFiles/server.dir
+  OBJECT_FILE_DIR = CMakeFiles/server.dir/flashEngine/io
 
-build CMakeFiles/shooter_server.dir/flashEngine/utils/ObjectController.cpp.o: CXX_COMPILER__shooter_server_unscanned_ /home/senhor/projects/flashProject/server/flashEngine/utils/ObjectController.cpp || cmake_object_order_depends_target_shooter_server
-  DEP_FILE = CMakeFiles/shooter_server.dir/flashEngine/utils/ObjectController.cpp.o.d
+build CMakeFiles/server.dir/flashEngine/utils/ObjectController.cpp.o: CXX_COMPILER__server_unscanned_ /home/senhor/projects/flashProject/server/flashEngine/utils/ObjectController.cpp || cmake_object_order_depends_target_server
+  DEP_FILE = CMakeFiles/server.dir/flashEngine/utils/ObjectController.cpp.o.d
   FLAGS = -std=gnu++17
-  OBJECT_DIR = CMakeFiles/shooter_server.dir
-  OBJECT_FILE_DIR = CMakeFiles/shooter_server.dir/flashEngine/utils
+  OBJECT_DIR = CMakeFiles/server.dir
+  OBJECT_FILE_DIR = CMakeFiles/server.dir/flashEngine/utils
 
-build CMakeFiles/shooter_server.dir/flashEngine/animation/Timeline.cpp.o: CXX_COMPILER__shooter_server_unscanned_ /home/senhor/projects/flashProject/server/flashEngine/animation/Timeline.cpp || cmake_object_order_depends_target_shooter_server
-  DEP_FILE = CMakeFiles/shooter_server.dir/flashEngine/animation/Timeline.cpp.o.d
+build CMakeFiles/server.dir/flashEngine/animation/Timeline.cpp.o: CXX_COMPILER__server_unscanned_ /home/senhor/projects/flashProject/server/flashEngine/animation/Timeline.cpp || cmake_object_order_depends_target_server
+  DEP_FILE = CMakeFiles/server.dir/flashEngine/animation/Timeline.cpp.o.d
   FLAGS = -std=gnu++17
-  OBJECT_DIR = CMakeFiles/shooter_server.dir
-  OBJECT_FILE_DIR = CMakeFiles/shooter_server.dir/flashEngine/animation
+  OBJECT_DIR = CMakeFiles/server.dir
+  OBJECT_FILE_DIR = CMakeFiles/server.dir/flashEngine/animation
 
-build CMakeFiles/shooter_server.dir/flashEngine/animation/Animation.cpp.o: CXX_COMPILER__shooter_server_unscanned_ /home/senhor/projects/flashProject/server/flashEngine/animation/Animation.cpp || cmake_object_order_depends_target_shooter_server
-  DEP_FILE = CMakeFiles/shooter_server.dir/flashEngine/animation/Animation.cpp.o.d
+build CMakeFiles/server.dir/flashEngine/animation/Animation.cpp.o: CXX_COMPILER__server_unscanned_ /home/senhor/projects/flashProject/server/flashEngine/animation/Animation.cpp || cmake_object_order_depends_target_server
+  DEP_FILE = CMakeFiles/server.dir/flashEngine/animation/Animation.cpp.o.d
   FLAGS = -std=gnu++17
-  OBJECT_DIR = CMakeFiles/shooter_server.dir
-  OBJECT_FILE_DIR = CMakeFiles/shooter_server.dir/flashEngine/animation
+  OBJECT_DIR = CMakeFiles/server.dir
+  OBJECT_FILE_DIR = CMakeFiles/server.dir/flashEngine/animation
 
-build CMakeFiles/shooter_server.dir/flashEngine/animation/Interpolation.cpp.o: CXX_COMPILER__shooter_server_unscanned_ /home/senhor/projects/flashProject/server/flashEngine/animation/Interpolation.cpp || cmake_object_order_depends_target_shooter_server
-  DEP_FILE = CMakeFiles/shooter_server.dir/flashEngine/animation/Interpolation.cpp.o.d
+build CMakeFiles/server.dir/flashEngine/animation/Interpolation.cpp.o: CXX_COMPILER__server_unscanned_ /home/senhor/projects/flashProject/server/flashEngine/animation/Interpolation.cpp || cmake_object_order_depends_target_server
+  DEP_FILE = CMakeFiles/server.dir/flashEngine/animation/Interpolation.cpp.o.d
   FLAGS = -std=gnu++17
-  OBJECT_DIR = CMakeFiles/shooter_server.dir
-  OBJECT_FILE_DIR = CMakeFiles/shooter_server.dir/flashEngine/animation
+  OBJECT_DIR = CMakeFiles/server.dir
+  OBJECT_FILE_DIR = CMakeFiles/server.dir/flashEngine/animation
 
-build CMakeFiles/shooter_server.dir/flashEngine/physics/RigidBody.cpp.o: CXX_COMPILER__shooter_server_unscanned_ /home/senhor/projects/flashProject/server/flashEngine/physics/RigidBody.cpp || cmake_object_order_depends_target_shooter_server
-  DEP_FILE = CMakeFiles/shooter_server.dir/flashEngine/physics/RigidBody.cpp.o.d
+build CMakeFiles/server.dir/flashEngine/physics/RigidBody.cpp.o: CXX_COMPILER__server_unscanned_ /home/senhor/projects/flashProject/server/flashEngine/physics/RigidBody.cpp || cmake_object_order_depends_target_server
+  DEP_FILE = CMakeFiles/server.dir/flashEngine/physics/RigidBody.cpp.o.d
   FLAGS = -std=gnu++17
-  OBJECT_DIR = CMakeFiles/shooter_server.dir
-  OBJECT_FILE_DIR = CMakeFiles/shooter_server.dir/flashEngine/physics
+  OBJECT_DIR = CMakeFiles/server.dir
+  OBJECT_FILE_DIR = CMakeFiles/server.dir/flashEngine/physics
 
-build CMakeFiles/shooter_server.dir/flashEngine/physics/HitBox.cpp.o: CXX_COMPILER__shooter_server_unscanned_ /home/senhor/projects/flashProject/server/flashEngine/physics/HitBox.cpp || cmake_object_order_depends_target_shooter_server
-  DEP_FILE = CMakeFiles/shooter_server.dir/flashEngine/physics/HitBox.cpp.o.d
+build CMakeFiles/server.dir/flashEngine/physics/HitBox.cpp.o: CXX_COMPILER__server_unscanned_ /home/senhor/projects/flashProject/server/flashEngine/physics/HitBox.cpp || cmake_object_order_depends_target_server
+  DEP_FILE = CMakeFiles/server.dir/flashEngine/physics/HitBox.cpp.o.d
   FLAGS = -std=gnu++17
-  OBJECT_DIR = CMakeFiles/shooter_server.dir
-  OBJECT_FILE_DIR = CMakeFiles/shooter_server.dir/flashEngine/physics
+  OBJECT_DIR = CMakeFiles/server.dir
+  OBJECT_FILE_DIR = CMakeFiles/server.dir/flashEngine/physics
 
-build CMakeFiles/shooter_server.dir/flashEngine/Object.cpp.o: CXX_COMPILER__shooter_server_unscanned_ /home/senhor/projects/flashProject/server/flashEngine/Object.cpp || cmake_object_order_depends_target_shooter_server
-  DEP_FILE = CMakeFiles/shooter_server.dir/flashEngine/Object.cpp.o.d
+build CMakeFiles/server.dir/flashEngine/Object.cpp.o: CXX_COMPILER__server_unscanned_ /home/senhor/projects/flashProject/server/flashEngine/Object.cpp || cmake_object_order_depends_target_server
+  DEP_FILE = CMakeFiles/server.dir/flashEngine/Object.cpp.o.d
   FLAGS = -std=gnu++17
-  OBJECT_DIR = CMakeFiles/shooter_server.dir
-  OBJECT_FILE_DIR = CMakeFiles/shooter_server.dir/flashEngine
+  OBJECT_DIR = CMakeFiles/server.dir
+  OBJECT_FILE_DIR = CMakeFiles/server.dir/flashEngine
 
-build CMakeFiles/shooter_server.dir/flashEngine/gui/Button.cpp.o: CXX_COMPILER__shooter_server_unscanned_ /home/senhor/projects/flashProject/server/flashEngine/gui/Button.cpp || cmake_object_order_depends_target_shooter_server
-  DEP_FILE = CMakeFiles/shooter_server.dir/flashEngine/gui/Button.cpp.o.d
+build CMakeFiles/server.dir/flashEngine/gui/Button.cpp.o: CXX_COMPILER__server_unscanned_ /home/senhor/projects/flashProject/server/flashEngine/gui/Button.cpp || cmake_object_order_depends_target_server
+  DEP_FILE = CMakeFiles/server.dir/flashEngine/gui/Button.cpp.o.d
   FLAGS = -std=gnu++17
-  OBJECT_DIR = CMakeFiles/shooter_server.dir
-  OBJECT_FILE_DIR = CMakeFiles/shooter_server.dir/flashEngine/gui
+  OBJECT_DIR = CMakeFiles/server.dir
+  OBJECT_FILE_DIR = CMakeFiles/server.dir/flashEngine/gui
 
-build CMakeFiles/shooter_server.dir/flashEngine/gui/Window.cpp.o: CXX_COMPILER__shooter_server_unscanned_ /home/senhor/projects/flashProject/server/flashEngine/gui/Window.cpp || cmake_object_order_depends_target_shooter_server
-  DEP_FILE = CMakeFiles/shooter_server.dir/flashEngine/gui/Window.cpp.o.d
+build CMakeFiles/server.dir/flashEngine/gui/Window.cpp.o: CXX_COMPILER__server_unscanned_ /home/senhor/projects/flashProject/server/flashEngine/gui/Window.cpp || cmake_object_order_depends_target_server
+  DEP_FILE = CMakeFiles/server.dir/flashEngine/gui/Window.cpp.o.d
   FLAGS = -std=gnu++17
-  OBJECT_DIR = CMakeFiles/shooter_server.dir
-  OBJECT_FILE_DIR = CMakeFiles/shooter_server.dir/flashEngine/gui
+  OBJECT_DIR = CMakeFiles/server.dir
+  OBJECT_FILE_DIR = CMakeFiles/server.dir/flashEngine/gui
 
-build CMakeFiles/shooter_server.dir/flashEngine/network/ClientUDP.cpp.o: CXX_COMPILER__shooter_server_unscanned_ /home/senhor/projects/flashProject/server/flashEngine/network/ClientUDP.cpp || cmake_object_order_depends_target_shooter_server
-  DEP_FILE = CMakeFiles/shooter_server.dir/flashEngine/network/ClientUDP.cpp.o.d
+build CMakeFiles/server.dir/flashEngine/network/ClientUDP.cpp.o: CXX_COMPILER__server_unscanned_ /home/senhor/projects/flashProject/server/flashEngine/network/ClientUDP.cpp || cmake_object_order_depends_target_server
+  DEP_FILE = CMakeFiles/server.dir/flashEngine/network/ClientUDP.cpp.o.d
   FLAGS = -std=gnu++17
-  OBJECT_DIR = CMakeFiles/shooter_server.dir
-  OBJECT_FILE_DIR = CMakeFiles/shooter_server.dir/flashEngine/network
+  OBJECT_DIR = CMakeFiles/server.dir
+  OBJECT_FILE_DIR = CMakeFiles/server.dir/flashEngine/network
 
-build CMakeFiles/shooter_server.dir/flashEngine/network/MsgType.cpp.o: CXX_COMPILER__shooter_server_unscanned_ /home/senhor/projects/flashProject/server/flashEngine/network/MsgType.cpp || cmake_object_order_depends_target_shooter_server
-  DEP_FILE = CMakeFiles/shooter_server.dir/flashEngine/network/MsgType.cpp.o.d
+build CMakeFiles/server.dir/flashEngine/network/MsgType.cpp.o: CXX_COMPILER__server_unscanned_ /home/senhor/projects/flashProject/server/flashEngine/network/MsgType.cpp || cmake_object_order_depends_target_server
+  DEP_FILE = CMakeFiles/server.dir/flashEngine/network/MsgType.cpp.o.d
   FLAGS = -std=gnu++17
-  OBJECT_DIR = CMakeFiles/shooter_server.dir
-  OBJECT_FILE_DIR = CMakeFiles/shooter_server.dir/flashEngine/network
+  OBJECT_DIR = CMakeFiles/server.dir
+  OBJECT_FILE_DIR = CMakeFiles/server.dir/flashEngine/network
 
-build CMakeFiles/shooter_server.dir/flashEngine/network/ReliableMsg.cpp.o: CXX_COMPILER__shooter_server_unscanned_ /home/senhor/projects/flashProject/server/flashEngine/network/ReliableMsg.cpp || cmake_object_order_depends_target_shooter_server
-  DEP_FILE = CMakeFiles/shooter_server.dir/flashEngine/network/ReliableMsg.cpp.o.d
+build CMakeFiles/server.dir/flashEngine/network/ReliableMsg.cpp.o: CXX_COMPILER__server_unscanned_ /home/senhor/projects/flashProject/server/flashEngine/network/ReliableMsg.cpp || cmake_object_order_depends_target_server
+  DEP_FILE = CMakeFiles/server.dir/flashEngine/network/ReliableMsg.cpp.o.d
   FLAGS = -std=gnu++17
-  OBJECT_DIR = CMakeFiles/shooter_server.dir
-  OBJECT_FILE_DIR = CMakeFiles/shooter_server.dir/flashEngine/network
+  OBJECT_DIR = CMakeFiles/server.dir
+  OBJECT_FILE_DIR = CMakeFiles/server.dir/flashEngine/network
 
-build CMakeFiles/shooter_server.dir/flashEngine/network/ServerUDP.cpp.o: CXX_COMPILER__shooter_server_unscanned_ /home/senhor/projects/flashProject/server/flashEngine/network/ServerUDP.cpp || cmake_object_order_depends_target_shooter_server
-  DEP_FILE = CMakeFiles/shooter_server.dir/flashEngine/network/ServerUDP.cpp.o.d
+build CMakeFiles/server.dir/flashEngine/network/ServerUDP.cpp.o: CXX_COMPILER__server_unscanned_ /home/senhor/projects/flashProject/server/flashEngine/network/ServerUDP.cpp || cmake_object_order_depends_target_server
+  DEP_FILE = CMakeFiles/server.dir/flashEngine/network/ServerUDP.cpp.o.d
   FLAGS = -std=gnu++17
-  OBJECT_DIR = CMakeFiles/shooter_server.dir
-  OBJECT_FILE_DIR = CMakeFiles/shooter_server.dir/flashEngine/network
+  OBJECT_DIR = CMakeFiles/server.dir
+  OBJECT_FILE_DIR = CMakeFiles/server.dir/flashEngine/network
 
-build CMakeFiles/shooter_server.dir/flashEngine/network/UDPConnection.cpp.o: CXX_COMPILER__shooter_server_unscanned_ /home/senhor/projects/flashProject/server/flashEngine/network/UDPConnection.cpp || cmake_object_order_depends_target_shooter_server
-  DEP_FILE = CMakeFiles/shooter_server.dir/flashEngine/network/UDPConnection.cpp.o.d
+build CMakeFiles/server.dir/flashEngine/network/UDPConnection.cpp.o: CXX_COMPILER__server_unscanned_ /home/senhor/projects/flashProject/server/flashEngine/network/UDPConnection.cpp || cmake_object_order_depends_target_server
+  DEP_FILE = CMakeFiles/server.dir/flashEngine/network/UDPConnection.cpp.o.d
   FLAGS = -std=gnu++17
-  OBJECT_DIR = CMakeFiles/shooter_server.dir
-  OBJECT_FILE_DIR = CMakeFiles/shooter_server.dir/flashEngine/network
+  OBJECT_DIR = CMakeFiles/server.dir
+  OBJECT_FILE_DIR = CMakeFiles/server.dir/flashEngine/network
 
-build CMakeFiles/shooter_server.dir/flashEngine/network/UDPSocket.cpp.o: CXX_COMPILER__shooter_server_unscanned_ /home/senhor/projects/flashProject/server/flashEngine/network/UDPSocket.cpp || cmake_object_order_depends_target_shooter_server
-  DEP_FILE = CMakeFiles/shooter_server.dir/flashEngine/network/UDPSocket.cpp.o.d
+build CMakeFiles/server.dir/flashEngine/network/UDPSocket.cpp.o: CXX_COMPILER__server_unscanned_ /home/senhor/projects/flashProject/server/flashEngine/network/UDPSocket.cpp || cmake_object_order_depends_target_server
+  DEP_FILE = CMakeFiles/server.dir/flashEngine/network/UDPSocket.cpp.o.d
   FLAGS = -std=gnu++17
-  OBJECT_DIR = CMakeFiles/shooter_server.dir
-  OBJECT_FILE_DIR = CMakeFiles/shooter_server.dir/flashEngine/network
+  OBJECT_DIR = CMakeFiles/server.dir
+  OBJECT_FILE_DIR = CMakeFiles/server.dir/flashEngine/network
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target shooter_server
+# Link build statements for EXECUTABLE target server
 
 
 #############################################
-# Link the executable release/shooter_server
+# Link the executable release/server
 
-build release/shooter_server: CXX_EXECUTABLE_LINKER__shooter_server_ CMakeFiles/shooter_server.dir/Source.cpp.o CMakeFiles/shooter_server.dir/Player.cpp.o CMakeFiles/shooter_server.dir/network/ShooterServer.cpp.o CMakeFiles/shooter_server.dir/network/ShooterMsgType.cpp.o CMakeFiles/shooter_server.dir/flashEngine/math/Vec4D.cpp.o CMakeFiles/shooter_server.dir/flashEngine/math/Vec3D.cpp.o CMakeFiles/shooter_server.dir/flashEngine/math/Vec2D.cpp.o CMakeFiles/shooter_server.dir/flashEngine/math/Matrix4x4.cpp.o CMakeFiles/shooter_server.dir/flashEngine/Triangle.cpp.o CMakeFiles/shooter_server.dir/flashEngine/math/Plane.cpp.o CMakeFiles/shooter_server.dir/flashEngine/Mesh.cpp.o CMakeFiles/shooter_server.dir/flashEngine/utils/Log.cpp.o CMakeFiles/shooter_server.dir/flashEngine/utils/Time.cpp.o CMakeFiles/shooter_server.dir/flashEngine/utils/Timer.cpp.o CMakeFiles/shooter_server.dir/flashEngine/utils/ResourceManager.cpp.o CMakeFiles/shooter_server.dir/flashEngine/World.cpp.o CMakeFiles/shooter_server.dir/flashEngine/Camera.cpp.o CMakeFiles/shooter_server.dir/flashEngine/io/Screen.cpp.o CMakeFiles/shooter_server.dir/flashEngine/Engine.cpp.o CMakeFiles/shooter_server.dir/flashEngine/io/Keyboard.cpp.o CMakeFiles/shooter_server.dir/flashEngine/io/Mouse.cpp.o CMakeFiles/shooter_server.dir/flashEngine/io/SoundController.cpp.o CMakeFiles/shooter_server.dir/flashEngine/utils/ObjectController.cpp.o CMakeFiles/shooter_server.dir/flashEngine/animation/Timeline.cpp.o CMakeFiles/shooter_server.dir/flashEngine/animation/Animation.cpp.o CMakeFiles/shooter_server.dir/flashEngine/animation/Interpolation.cpp.o CMakeFiles/shooter_server.dir/flashEngine/physics/RigidBody.cpp.o CMakeFiles/shooter_server.dir/flashEngine/physics/HitBox.cpp.o CMakeFiles/shooter_server.dir/flashEngine/Object.cpp.o CMakeFiles/shooter_server.dir/flashEngine/gui/Button.cpp.o CMakeFiles/shooter_server.dir/flashEngine/gui/Window.cpp.o CMakeFiles/shooter_server.dir/flashEngine/network/ClientUDP.cpp.o CMakeFiles/shooter_server.dir/flashEngine/network/MsgType.cpp.o CMakeFiles/shooter_server.dir/flashEngine/network/ReliableMsg.cpp.o CMakeFiles/shooter_server.dir/flashEngine/network/ServerUDP.cpp.o CMakeFiles/shooter_server.dir/flashEngine/network/UDPConnection.cpp.o CMakeFiles/shooter_server.dir/flashEngine/network/UDPSocket.cpp.o | /usr/lib/libsfml-audio.so.2.5.1 /usr/lib/libsfml-network.so.2.5.1 /usr/lib/libsfml-graphics.so.2.5.1 /usr/lib/libsfml-window.so.2.5.1 /usr/lib/libsfml-system.so.2.5.1 /usr/lib/libOpenGL.so /usr/lib/libGLX.so /usr/lib/libGLU.so
+build release/server: CXX_EXECUTABLE_LINKER__server_ CMakeFiles/server.dir/Source.cpp.o CMakeFiles/server.dir/Player.cpp.o CMakeFiles/server.dir/network/ShooterServer.cpp.o CMakeFiles/server.dir/network/ShooterMsgType.cpp.o CMakeFiles/server.dir/flashEngine/math/Vec4D.cpp.o CMakeFiles/server.dir/flashEngine/math/Vec3D.cpp.o CMakeFiles/server.dir/flashEngine/math/Vec2D.cpp.o CMakeFiles/server.dir/flashEngine/math/Matrix4x4.cpp.o CMakeFiles/server.dir/flashEngine/Triangle.cpp.o CMakeFiles/server.dir/flashEngine/math/Plane.cpp.o CMakeFiles/server.dir/flashEngine/Mesh.cpp.o CMakeFiles/server.dir/flashEngine/utils/Log.cpp.o CMakeFiles/server.dir/flashEngine/utils/Time.cpp.o CMakeFiles/server.dir/flashEngine/utils/Timer.cpp.o CMakeFiles/server.dir/flashEngine/utils/ResourceManager.cpp.o CMakeFiles/server.dir/flashEngine/World.cpp.o CMakeFiles/server.dir/flashEngine/Camera.cpp.o CMakeFiles/server.dir/flashEngine/io/Screen.cpp.o CMakeFiles/server.dir/flashEngine/Engine.cpp.o CMakeFiles/server.dir/flashEngine/io/Keyboard.cpp.o CMakeFiles/server.dir/flashEngine/io/Mouse.cpp.o CMakeFiles/server.dir/flashEngine/io/SoundController.cpp.o CMakeFiles/server.dir/flashEngine/utils/ObjectController.cpp.o CMakeFiles/server.dir/flashEngine/animation/Timeline.cpp.o CMakeFiles/server.dir/flashEngine/animation/Animation.cpp.o CMakeFiles/server.dir/flashEngine/animation/Interpolation.cpp.o CMakeFiles/server.dir/flashEngine/physics/RigidBody.cpp.o CMakeFiles/server.dir/flashEngine/physics/HitBox.cpp.o CMakeFiles/server.dir/flashEngine/Object.cpp.o CMakeFiles/server.dir/flashEngine/gui/Button.cpp.o CMakeFiles/server.dir/flashEngine/gui/Window.cpp.o CMakeFiles/server.dir/flashEngine/network/ClientUDP.cpp.o CMakeFiles/server.dir/flashEngine/network/MsgType.cpp.o CMakeFiles/server.dir/flashEngine/network/ReliableMsg.cpp.o CMakeFiles/server.dir/flashEngine/network/ServerUDP.cpp.o CMakeFiles/server.dir/flashEngine/network/UDPConnection.cpp.o CMakeFiles/server.dir/flashEngine/network/UDPSocket.cpp.o | /usr/lib/libsfml-audio.so.2.5.1 /usr/lib/libsfml-network.so.2.5.1 /usr/lib/libsfml-graphics.so.2.5.1 /usr/lib/libsfml-window.so.2.5.1 /usr/lib/libsfml-system.so.2.5.1 /usr/lib/libOpenGL.so /usr/lib/libGLX.so /usr/lib/libGLU.so
   LINK_LIBRARIES = /usr/lib/libsfml-audio.so.2.5.1  /usr/lib/libsfml-network.so.2.5.1  /usr/lib/libsfml-graphics.so.2.5.1  /usr/lib/libsfml-window.so.2.5.1  /usr/lib/libsfml-system.so.2.5.1  /usr/lib/libOpenGL.so  /usr/lib/libGLX.so  /usr/lib/libGLU.so
-  OBJECT_DIR = CMakeFiles/shooter_server.dir
+  OBJECT_DIR = CMakeFiles/server.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = release/shooter_server
-  TARGET_PDB = shooter_server.dbg
+  TARGET_FILE = release/server
+  TARGET_PDB = server.dbg
 
 
 #############################################
@@ -309,7 +309,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build shooter_server: phony release/shooter_server
+build server: phony release/server
 
 # =============================================================================
 # Folder targets.
@@ -319,7 +319,7 @@ build shooter_server: phony release/shooter_server
 #############################################
 # Folder: /home/senhor/projects/flashProject/server/release
 
-build all: phony release/shooter_server
+build all: phony release/server
 
 # =============================================================================
 # Built-in targets
