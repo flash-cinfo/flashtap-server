@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.17)
-project(shooter_server)
+project(server)
 
 set(CMAKE_CXX_STANDARD 17)
 
@@ -16,7 +16,7 @@ add_executable(shooter_server
         network/ShooterMsgType.cpp
         network/ShooterMsgType.h
         # 3d flashflashEngine:
-        flashEngine/Consts.h
+        #flashEngine/Consts.h
         flashEngine/math/Vec4D.h
         flashEngine/math/Vec4D.cpp
         flashEngine/math/Vec3D.cpp
