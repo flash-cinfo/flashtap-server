@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 17)
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY release)
 
-add_executable(shooter_server
+add_executable(${CMAKE_PROJECT_NAME}
         # game:
         Source.cpp
         Player.cpp
@@ -112,7 +112,7 @@ if (SFML_FOUND)
     include_directories(${SFML_INCLUDE_DIR})
 endif()
 
-target_link_libraries(shooter_server sfml-audio sfml-network sfml-graphics sfml-window sfml-system)
+target_link_libraries(${CMAKE_PROJECT_NAME} sfml-audio sfml-network sfml-graphics sfml-window sfml-system)
 
 if (APPLE)
     set(GLEW_H /usr/local/Cellar/glew/2.1.0/include/GL)
