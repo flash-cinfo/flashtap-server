@@ -1,0 +1,3 @@
+2023-04-17 13:28:44	Time::init(): time was initialized (0 fps)
+2023-04-17 13:28:44	Initializing the server... (0 fps)
+2023-04-17 13:28:44	ServerUDP::start(): the server was successfully started. (0 fps)
